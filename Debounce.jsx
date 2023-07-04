@@ -35,6 +35,7 @@ const App = () => {
         />
       </div>
       <>
+        {!data.length && <p>No Data</p>}
         {data.map((item) => {
           const { brand, category, title } = item;
           return (
@@ -85,6 +86,7 @@ export default App;
 //         />
 //       </div>
 //       <>
+//         {!data.length && <p>No Data</p>}
 //         {data.map((item) => {
 //           const { brand, category, title } = item;
 //           return (
