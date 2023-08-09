@@ -1,0 +1,37 @@
+[
+  {
+    "name": "a",
+    "folders": [
+      {
+        "name": "ab",
+        "folders": []
+      },
+      {
+        "name": "aa",
+        "folders": []
+      }
+    ]
+  },
+  {
+    "name": "b",
+    "folders": [
+      {
+        "name": "ba",
+        "folders": []
+      },
+      {
+        "name": "bb",
+        "folders": [
+          {
+            "name": "bbb",
+            "folders": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "c",
+    "folders": []
+  }
+]
